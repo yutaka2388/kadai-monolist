@@ -1,0 +1,2 @@
+class Want < Hoshii
+end

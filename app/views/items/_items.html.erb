@@ -19,6 +19,13 @@
                 <% end %>
               </div>
             </div>
+              <div class="panel-body">
+              <div class="buttons text-center">
+                <% if logged_in? %>
+              <%= render 'hoshiis/want_button', item: item %>
+                <% end %>
+              </div>
+            </div>
           </div>
         </div>
       </div>
