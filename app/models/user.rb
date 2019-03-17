@@ -12,9 +12,6 @@ class User < ApplicationRecord
   has_many :haves, class_name: 'Have'
   has_many :have_items, through: :haves, source: :item
   
-  has_many :hoshiis
-  has_many :items, through: :hoshiis
-  
   has_many :wants
   has_many :want_items, through: :wants, source: :item
   
